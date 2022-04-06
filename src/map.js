@@ -139,65 +139,65 @@ function changeLegend(props) {
 }
 
 var legends = {
-    ESC_ANOS: {
+    PRO_ESC: {
         title: "Años promedio educación",
         subtitle: "Años",
-        elem1: '<div><span  style= "color:#1a9641">▉</span>Mayor 16</div>',
-        elem2: '<div><span  style= "color:#a6d96a">▉</span>14 - 15</div>',
-        elem3: '<div><span  style= "color:#f4f466">▉</span>12 - 13</div>',
-        elem4: '<div><span  style= "color:#fdae61">▉</span>9 - 11</div>',
-        elem5: '<div><span  style= "color:#d7191c">▉</span>3 - 8</div>',
+        elem1: '<div><span  style= "color:#1a9641">▉</span>Mayor 14</div>',
+        elem2: '<div><span  style= "color:#a6d96a">▉</span>11 - 13</div>',
+        elem3: '<div><span  style= "color:#f4f466">▉</span>9 - 10</div>',
+        elem4: '<div><span  style= "color:#fdae61">▉</span>4 - 8</div>',
+        elem5: '<div><span  style= "color:#d7191c">▉</span>0 - 3</div>',
         elem6: '',
         elem7: '',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
+        elem8: "INEGI Censo de Población y Vivienda 2020",
     },
-    MIXTICIDAD: {
+    SHANNON: {
         title: "Diversidad usos del suelo",
         subtitle: "Índice de Shannon-Wienner -  Nivel de diversidad por manzana",
-        elem1: '<div><span  style= "color:#1a9641">▉</span>1.06 - 1.67</div>',
-        elem2: '<div><span  style= "color:#a6d96a">▉</span>0.79 - 1.05</div>',
-        elem3: '<div><span  style= "color:#f4f466">▉</span>0.54 - 0.78</div>',
-        elem4: '<div><span  style= "color:#fdae61">▉</span>0.30 - 0.53</div>',
-        elem5: '<div><span  style= "color:#d7191c">▉</span>0.00 - 0.29</div>',
+        elem1: '<div><span  style= "color:#1a9641">▉</span>1.17 - 1.53</div>',
+        elem2: '<div><span  style= "color:#a6d96a">▉</span>0.93 - 1.16</div>',
+        elem3: '<div><span  style= "color:#f4f466">▉</span>0.72 - 0.92</div>',
+        elem4: '<div><span  style= "color:#fdae61">▉</span>0.48 - 0.71</div>',
+        elem5: '<div><span  style= "color:#d7191c">▉</span>0.01 - 0.47</div>',
         elem6: '',
         elem7: '',
         elem8: "Alcalcía de Barranquilla",
     },
-    P_MAT_ADE: {
+   V_ADE: {
         title: "Vivienda Adecuada",
         subtitle: "% de Viviendas",
-        elem1: '<div><span  style= "color:#1a9641">▉</span>Mayor 86</div>',
-        elem2: '<div><span  style= "color:#a6d96a">▉</span>66 - 85</div>', 
-        elem3: '<div><span  style= "color:#f4f466">▉</span>36 - 65</div>',
-        elem4: '<div><span  style= "color:#fdae61">▉</span>16 - 35</div>',
-        elem5: '<div><span  style= "color:#d7191c">▉</span>Menor 15</div>',
+        elem1: '<div><span  style= "color:#1a9641">▉</span>Mayor 95</div>',
+        elem2: '<div><span  style= "color:#a6d96a">▉</span>85 - 95</div>', 
+        elem3: '<div><span  style= "color:#f4f466">▉</span>68 - 84</div>',
+        elem4: '<div><span  style= "color:#fdae61">▉</span>28 - 67</div>',
+        elem5: '<div><span  style= "color:#d7191c">▉</span>Menor 27</div>',
         elem6: '',
         elem7: '',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
+        elem8: "INEGI Censo de Población y Vivienda 2020",
     },
-    A_ACU: {
+    A_AGUA: {
         title: "Acceso a agua mejorada",
         subtitle: "% de Viviendas",
-        elem1: '<div><span  style= "color:#1a9641">▉</span>98 - 100</div>',
-        elem2: '<div><span  style= "color:#a6d96a">▉</span>89 - 97</div>', 
-        elem3: '<div><span  style= "color:#f4f466">▉</span>74 - 88</div>',
-        elem4: '<div><span  style= "color:#fdae61">▉</span>46 - 73</div>',
-        elem5: '<div><span  style= "color:#d7191c">▉</span>4 - 45</div>',
+        elem1: '<div><span  style= "color:#1a9641">▉</span>96 - 100</div>',
+        elem2: '<div><span  style= "color:#a6d96a">▉</span>84 - 95</div>', 
+        elem3: '<div><span  style= "color:#f4f466">▉</span>65 - 83</div>',
+        elem4: '<div><span  style= "color:#fdae61">▉</span>27 - 64</div>',
+        elem5: '<div><span  style= "color:#d7191c">▉</span>0 - 26</div>',
         elem6: '',
         elem7: '',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
+        elem8: "INEGI Censo de Población y Vivienda 2020",
     },
-    A_ALC: {
+    A_SAN: {
         title: "Acceso a saneamiento",
         subtitle: "% de Viviendas",
-        elem1: '<div><span  style= "color:#1a9641">▉</span>97 - 100</div>',
-        elem2: '<div><span  style= "color:#a6d96a">▉</span>86 - 96</div>', 
-        elem3: '<div><span  style= "color:#f4f466">▉</span>65 - 85</div>',
-        elem4: '<div><span  style= "color:#fdae61">▉</span>30 - 64</div>',
-        elem5: '<div><span  style= "color:#d7191c">▉</span>0 - 29</div>',
+        elem1: '<div><span  style= "color:#1a9641">▉</span>98 - 100</div>',
+        elem2: '<div><span  style= "color:#a6d96a">▉</span>90 - 97</div>', 
+        elem3: '<div><span  style= "color:#f4f466">▉</span>80 - 89</div>',
+        elem4: '<div><span  style= "color:#fdae61">▉</span>20 - 79</div>',
+        elem5: '<div><span  style= "color:#d7191c">▉</span>0 - 19</div>',
         elem6: '',
         elem7: '',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
+        elem8: "INEGI Censo de Población y Vivienda 2020",
     },  
     DESEM_JUVE: {
         title: "Desempleo juvenil",
@@ -209,43 +209,43 @@ var legends = {
         elem5: '<div><span  style= "color:#d7191c">▉</span>39 - 89</div>',
         elem6: '',
         elem7: '',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
+        elem8: "INEGI Censo de Población y Vivienda 2020",
     }, 
     A_INTER: {
         title: "Acceso a internet",
         subtitle: "% de Viviendas",
-        elem1: '<div><span  style= "color:#1a9641">▉</span>86 - 100</div>',
-        elem2: '<div><span  style= "color:#a6d96a">▉</span>52 - 85</div>', 
-        elem3: '<div><span  style= "color:#f4f466">▉</span>33 - 51</div>',
-        elem4: '<div><span  style= "color:#fdae61">▉</span>14 - 32</div>',
-        elem5: '<div><span  style= "color:#d7191c">▉</span>0 - 13</div>',
+        elem1: '<div><span  style= "color:#1a9641">▉</span>80 - 100</div>',
+        elem2: '<div><span  style= "color:#a6d96a">▉</span>59 - 79</div>', 
+        elem3: '<div><span  style= "color:#f4f466">▉</span>39 - 58</div>',
+        elem4: '<div><span  style= "color:#fdae61">▉</span>15 - 38</div>',
+        elem5: '<div><span  style= "color:#d7191c">▉</span>0 - 14</div>',
         elem6: '',
         elem7: '',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
+        elem8: "INEGI Censo de Población y Vivienda 2020",
     }, 
     T_DESEMP: {
         title: "Tasa de desempleo",
         subtitle: "% de Personas",
-        elem1: '<div><span  style= "color:#1a9641">▉</span>0 - 10</div>',
-        elem2: '<div><span  style= "color:#a6d96a">▉</span>11 - 20</div>', 
-        elem3: '<div><span  style= "color:#f4f466">▉</span>21 - 30</div>',
-        elem4: '<div><span  style= "color:#fdae61">▉</span>31 - 50</div>',
-        elem5: '<div><span  style= "color:#d7191c">▉</span>51 - 90</div>',
+        elem1: '<div><span  style= "color:#1a9641">▉</span>0 - 3</div>',
+        elem2: '<div><span  style= "color:#a6d96a">▉</span>4 - 10</div>', 
+        elem3: '<div><span  style= "color:#f4f466">▉</span>11 - 18</div>',
+        elem4: '<div><span  style= "color:#fdae61">▉</span>19 - 38</div>',
+        elem5: '<div><span  style= "color:#d7191c">▉</span>39 - 100</div>',
         elem6: '',
         elem7: '',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
+        elem8: "INEGI Censo de Población y Vivienda 2020",
     }, 
     PM10: {
         title: "Concentración Pm10",
         subtitle: "µg/m3",
-        elem1: '<div><span  style= "color:#1a9641">▉</span>37 - 39</div>',
-        elem2: '<div><span  style= "color:#a6d96a">▉</span>40 - 41</div>', 
-        elem3: '<div><span  style= "color:#f4f466">▉</span>42 - 43</div>',
-        elem4: '<div><span  style= "color:#fdae61">▉</span>44 - 45</div>',
-        elem5: '<div><span  style= "color:#d7191c">▉</span>46 - 47</div>',
+        elem1: '<div><span  style= "color:#f4f466">▉</span>32.38</div>',
+        elem2: '', 
+        elem3: '',
+        elem4: '',
+        elem5: '',
         elem6: '',
         elem7: '',
-        elem8: "Alcaldía de Barranquilla",
+        elem8: "IQAIR Tapachula Mapa Calidad del Aire 2022",
     },
     VEN: {
         title: "Población de origen Venezuela",
@@ -257,7 +257,7 @@ var legends = {
         elem5: '<div><span  style= "color:#d7191c">▉</span>100 - 205</div>',
         elem6: '',
         elem7: '',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
+        elem8: "INEGI Censo de Población y Vivienda 2020",
     },
     MAX_EST: {
         title: "Estratificación socioeconómica",
@@ -269,55 +269,43 @@ var legends = {
         elem5: '<div><span  style= "color:#fdae61">▉</span>Estrato 2</div>',
         elem6: '<div><span  style= "color:#d7191c">▉</span>Estrato 1</div>',
         elem7: '<div><span  style= "color:#c3bfc2">▉</span>Sin estrato</div>',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
+        elem8: "INEGI Censo de Población y Vivienda 2020",
     },
     MIX_ETNIA: {
         title: "Diversidad etnias y razas",
         subtitle: "Índice de Shannon-Wienner -  Nivel de diversidad por manzana",
-        elem1: '<div><span  style= "color:#1a9641">▉</span>0.25 - 0.50</div>',
-        elem2: '<div><span  style= "color:#a6d96a">▉</span>0.15 - 0.24</div>', 
-        elem3: '<div><span  style= "color:#f4f466">▉</span>0.09 - 0.14</div>',
-        elem4: '<div><span  style= "color:#fdae61">▉</span>0.03 - 0.08</div>',
-        elem5: '<div><span  style= "color:#d7191c">▉</span>0.00 - 0.02</div>',
+        elem1: '<div><span  style= "color:#1a9641">▉</span>0.45 - 0.71</div>',
+        elem2: '<div><span  style= "color:#a6d96a">▉</span>0.29 - 0.44</div>', 
+        elem3: '<div><span  style= "color:#f4f466">▉</span>0.19 - 0.28</div>',
+        elem4: '<div><span  style= "color:#fdae61">▉</span>0.07 - 0.18</div>',
+        elem5: '<div><span  style= "color:#d7191c">▉</span>0.00 - 0.06</div>',
         elem6: '',
         elem7: '',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
+        elem8: "INEGI Censo de Población y Vivienda 2020",
     },
     MIX_EDU: {
         title: "Diversidad nivel educativo",
         subtitle: "Índice de Shannon-Wienner -  Nivel de diversidad por manzana",
-        elem1: '<div><span  style= "color:#1a9641">▉</span>1.56 - 1.98</div>',
-        elem2: '<div><span  style= "color:#a6d96a">▉</span>1.34 - 1.55</div>', 
-        elem3: '<div><span  style= "color:#f4f466">▉</span>1.08 - 1.33</div>',
-        elem4: '<div><span  style= "color:#fdae61">▉</span>0.47 - 1.07</div>',
-        elem5: '<div><span  style= "color:#d7191c">▉</span>0.00 - 0.46</div>',
+        elem1: '<div><span  style= "color:#1a9641">▉</span>0.95 - 1.10</div>',
+        elem2: '<div><span  style= "color:#a6d96a">▉</span>0.79 - 0.94</div>', 
+        elem3: '<div><span  style= "color:#f4f466">▉</span>0.54 - 0.78</div>',
+        elem4: '<div><span  style= "color:#fdae61">▉</span>0.26 - 0.53</div>',
+        elem5: '<div><span  style= "color:#d7191c">▉</span>0.00 - 0.25</div>',
         elem6: '',
         elem7: '',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
+        elem8: "INEGI Censo de Población y Vivienda 2020",
     },
     MIX_EDAD: {
         title: "Diversidad edades",
         subtitle: "Índice de Shannon-Wienner -  Nivel de diversidad por manzana",
-        elem1: '<div><span  style= "color:#1a9641">▉</span>1.54 - 1.74</div>',
-        elem2: '<div><span  style= "color:#a6d96a">▉</span>1.45 - 1.53</div>', 
-        elem3: '<div><span  style= "color:#f4f466">▉</span>1.34 - 1.44</div>',
-        elem4: '<div><span  style= "color:#fdae61">▉</span>1.13 - 1.33</div>',
-        elem5: '<div><span  style= "color:#d7191c">▉</span>0.35 - 1.12</div>',
+        elem1: '<div><span  style= "color:#1a9641">▉</span>1.39 - 1.73</div>',
+        elem2: '<div><span  style= "color:#a6d96a">▉</span>1.11 - 1.38</div>', 
+        elem3: '<div><span  style= "color:#f4f466">▉</span>0.75 - 1.10</div>',
+        elem4: '<div><span  style= "color:#fdae61">▉</span>0.37 - 0.74</div>',
+        elem5: '<div><span  style= "color:#d7191c">▉</span>0.00 - 0.36</div>',
         elem6: '',
         elem7: '',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
-    },
-    SHANON_ES: {
-        title: "Diversidad ingresos",
-        subtitle: "Índice de Shannon-Wienner -  Nivel de diversidad por manzana",
-        elem1: '<div><span  style= "color:#1a9641">▉</span>0.78 - 1.52</div>',
-        elem2: '<div><span  style= "color:#a6d96a">▉</span>0.55 - 0.77</div>', 
-        elem3: '<div><span  style= "color:#f4f466">▉</span>0.34 - 0.54</div>',
-        elem4: '<div><span  style= "color:#fdae61">▉</span>0.13 - 0.33</div>',
-        elem5: '<div><span  style= "color:#d7191c">▉</span>0.00 - 0.12</div>',
-        elem6: '',
-        elem7: '',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
+        elem8: "INEGI Censo de Población y Vivienda 2020",
     },
     DEN_POB: {
         title: "Densidad residencial",
@@ -331,29 +319,29 @@ var legends = {
         elem7: '',
         elem8: "INEGI Censo de Población y Vivienda 2020",
     },
-    P_SALUD: {
+    D_PCENTROA: {
         title: "Proximidad centros de salud",
         subtitle: "Distancia en metros con factor de inclinación del terreno",
         elem1: '<div><span  style= "color:#1a9641">▉</span>0 - 500</div>',
         elem2: '<div><span  style= "color:#a6d96a">▉</span>501 - 1000</div>', 
         elem3: '<div><span  style= "color:#f4f466">▉</span>1001 - 1500</div>',
         elem4: '<div><span  style= "color:#fdae61">▉</span>1501 - 3000</div>',
-        elem5: '<div><span  style= "color:#d7191c">▉</span>3001 - 5492</div>',
+        elem5: '<div><span  style= "color:#d7191c">▉</span>3001 - 6316</div>',
         elem6: '<br />Factor de inclinación del terreno <br />A nivel: 1<br /> Ligeramente inclinada: 1.25<br /> Moderadamente inclinada: 1.5<br /> Fuertemente inclinada: 1.75<br /> Escarpada: 2<br />',
         elem7: '',
-        elem8: "Alcaldía de Barranquilla",
+        elem8: "INEGI 2020",
     },
-    P_SALUD1: {
+    D_PHOSP: {
         title: "Proximidad hospitales",
         subtitle: "Distancia en metros con factor de inclinación del terreno",
-        elem1: '<div><span  style= "color:#1a9641">▉</span>0 - 1000</div>',
-        elem2: '<div><span  style= "color:#a6d96a">▉</span>1001 - 2000</div>', 
-        elem3: '<div><span  style= "color:#f4f466">▉</span>2001 - 4000</div>',
-        elem4: '<div><span  style= "color:#fdae61">▉</span>4001 - 8000</div>',
-        elem5: '<div><span  style= "color:#d7191c">▉</span>5001 - 12745</div>',
+        elem1: '<div><span  style= "color:#1a9641">▉</span>0 - 500</div>',
+        elem2: '<div><span  style= "color:#a6d96a">▉</span>501 - 1000</div>', 
+        elem3: '<div><span  style= "color:#f4f466">▉</span>1001 - 1500</div>',
+        elem4: '<div><span  style= "color:#fdae61">▉</span>1501 - 3000</div>',
+        elem5: '<div><span  style= "color:#d7191c">▉</span>3001 - 5133</div>',
         elem6: '<br />Factor de inclinación del terreno <br />A nivel: 1<br /> Ligeramente inclinada: 1.25<br /> Moderadamente inclinada: 1.5<br /> Fuertemente inclinada: 1.75<br /> Escarpada: 2<br />',
         elem7: '',
-        elem8: "Alcaldía de Barranquilla",
+        elem8: "INEGI 2020",
     },
     VIV_ADE: {
         title: "Vivienda Adecuada",
@@ -365,43 +353,43 @@ var legends = {
         elem5: '<div><span  style= "color:#d7191c">▉</span>6 - 41</div>',
         elem6: '',
         elem7: '',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
+        elem8: "INEGI Censo de Población y Vivienda 2020",
     },
-    ES_VIT_SUF: {
+    ESP_VIT: {
         title: "Espacio vital suficiente",
-        subtitle: "% de Hogares",
-        elem1: '<div><span  style= "color:#1a9641">▉</span>98 - 100</div>',
-        elem2: '<div><span  style= "color:#a6d96a">▉</span>91 - 97</div>', 
-        elem3: '<div><span  style= "color:#f4f466">▉</span>83 - 90</div>',
-        elem4: '<div><span  style= "color:#fdae61">▉</span>72 - 82</div>',
-        elem5: '<div><span  style= "color:#d7191c">▉</span>25 - 71</div>',
+        subtitle: "% de Viviendas",
+        elem1: '<div><span  style= "color:#1a9641">▉</span>100 - No hacinadas</div>',
+        elem2: '<div><span  style= "color:#d7191c">▉</span>0 - Hacinadas</div>', 
+        elem3: '',
+        elem4: '',
+        elem5: '',
         elem6: '',
         elem7: '',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
+        elem8: "INEGI Censo de Población y Vivienda 2020",
     },
     A_ELEC: {
         title: "Acceso a electricidad",
         subtitle: "% de Viviendas",
-        elem1: '<div><span  style= "color:#1a9641">▉</span>99 - 100</div>',
-        elem2: '<div><span  style= "color:#a6d96a">▉</span>95 - 98</div>', 
-        elem3: '<div><span  style= "color:#f4f466">▉</span>86 - 94</div>',
-        elem4: '<div><span  style= "color:#fdae61">▉</span>61 - 85</div>',
-        elem5: '<div><span  style= "color:#d7191c">▉</span>24 - 60</div>',
+        elem1: '<div><span  style= "color:#1a9641">▉</span>98 - 100</div>',
+        elem2: '<div><span  style= "color:#a6d96a">▉</span>91 - 97</div>', 
+        elem3: '<div><span  style= "color:#f4f466">▉</span>73 - 90</div>',
+        elem4: '<div><span  style= "color:#fdae61">▉</span>64 - 72</div>',
+        elem5: '<div><span  style= "color:#d7191c">▉</span>0 - 63</div>',
         elem6: '',
         elem7: '',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
+        elem8: "INEGI Censo de Población y Vivienda 2020",
     },
-    D_ECONO: {
+    DEP_ECONO: {
         title: "Dependencia económica",
         subtitle: "Población/Población ocupada",
-        elem1: '<div><span  style= "color:#1a9641">▉</span>0.00 - 2.51</div>',
-        elem2: '<div><span  style= "color:#a6d96a">▉</span>2.52 - 3.24</div>', 
-        elem3: '<div><span  style= "color:#f4f466">▉</span>3.25 - 5.33</div>',
-        elem4: '<div><span  style= "color:#fdae61">▉</span>5.34 - 16.00</div>',
-        elem5: '<div><span  style= "color:#d7191c">▉</span>16.01 - 46.00</div>',
+        elem1: '<div><span  style= "color:#1a9641">▉</span>0.00 - 1.90</div>',
+        elem2: '<div><span  style= "color:#a6d96a">▉</span>1.91 - 2.49</div>', 
+        elem3: '<div><span  style= "color:#f4f466">▉</span>2.50 - 3.67</div>',
+        elem4: '<div><span  style= "color:#fdae61">▉</span>3.68 - 9.00</div>',
+        elem5: '<div><span  style= "color:#d7191c">▉</span>Mayor 9.00</div>',
         elem6: '',
         elem7: '',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
+        elem8: "INEGI Censo de Población y Vivienda 2020",
     },
     CON_SOL: {
         title: "Contaminación residuos sólidos",
@@ -413,79 +401,79 @@ var legends = {
         elem5: '<div><span  style= "color:#d7191c">▉</span>65 - 100</div>',
         elem6: '',
         elem7: '',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
+        elem8: "INEGI Censo de Población y Vivienda 2020",
     },
     E_VIDA: {
         title: "Esperanza de vida al nacer",
         subtitle: "Años",
-        elem1: '<div><span  style= "color:#1a9641">▉</span>76 - 78</div>',
-        elem2: '<div><span  style= "color:#a6d96a">▉</span>74 - 75</div>', 
-        elem3: '<div><span  style= "color:#f4f466">▉</span>71 - 73</div>',
-        elem4: '<div><span  style= "color:#fdae61">▉</span>66 - 70</div>',
-        elem5: '<div><span  style= "color:#d7191c">▉</span>21 - 65</div>',
+        elem1: '<div><span  style= "color:#1a9641">▉</span>74.3</div>',
+        elem2: '', 
+        elem3: '',
+        elem4: '',
+        elem5: '',
         elem6: '',
         elem7: '',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
+        elem8: "INEGI 2020",
     },
     B_E_VIDA: {
         title: "Brecha género esperanza de vida al nacer",
         subtitle: "Relación esperanza de vida al nacer de mujeres y hombres",
-        elem1: '<div><span  style= "color:#d7191c">▉</span>0.83 - 0.98</div>',
-        elem2: '<div><span  style= "color:#1a9641">▉</span>0.99 - 1.03</div>', 
-        elem3: '<div><span  style= "color:#a6d96a">▉</span>1.04 - 1.07</div>',
-        elem4: '<div><span  style= "color:#f4f466">▉</span>1.08 - 1.17</div>',
-        elem5: '<div><span  style= "color:#fdae61">▉</span>1.18 - 1.85</div>',
+        elem1: '<div><span  style= "color:#a6d96a">▉</span>1.07</div>',
+        elem2: '', 
+        elem3: '',
+        elem4: '',
+        elem5: '',
         elem6: '',
         elem7: '',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
+        elem8: "INEGI 2020",
     },
-    P_BIB: {
+    DP_CULT: {
         title: "Proximidad equipamientos culturales",
         subtitle: "Distancia en metros con factor de inclinación del terreno",
-        elem1: '<div><span  style= "color:#1a9641">▉</span>46 - 500</div>',
+        elem1: '<div><span  style= "color:#1a9641">▉</span>27 - 500</div>',
         elem2: '<div><span  style= "color:#a6d96a">▉</span>501 - 1000</div>', 
         elem3: '<div><span  style= "color:#f4f466">▉</span>1001 - 3000</div>',
         elem4: '<div><span  style= "color:#fdae61">▉</span>3001 - 5000</div>',
-        elem5: '<div><span  style= "color:#d7191c">▉</span>5001 - 11196</div>',
+        elem5: '<div><span  style= "color:#d7191c">▉</span>5001 - 7422</div>',
         elem6: '<br />Factor de inclinación del terreno <br />A nivel: 1<br /> Ligeramente inclinada: 1.25<br /> Moderadamente inclinada: 1.5<br /> Fuertemente inclinada: 1.75<br /> Escarpada: 2<br />',
         elem7: '',
-        elem8: "Alcaldía de Barranquilla",
+        elem8: "Google Earth 2022",
     },
-    P_EDU: {
+    DP_EDU: {
         title: "Proximidad equipamientos educativos",
         subtitle: "Distancia en metros con factor de inclinación del terreno",
-        elem1: '<div><span  style= "color:#1a9641">▉</span>6 - 200</div>',
-        elem2: '<div><span  style= "color:#a6d96a">▉</span>201 - 500</div>', 
-        elem3: '<div><span  style= "color:#f4f466">▉</span>501 - 1000</div>',
-        elem4: '<div><span  style= "color:#fdae61">▉</span>1001 - 1500</div>',
-        elem5: '<div><span  style= "color:#d7191c">▉</span>1501 - 3108</div>',
+        elem1: '<div><span  style= "color:#1a9641">▉</span>6 - 300</div>',
+        elem2: '<div><span  style= "color:#a6d96a">▉</span>301 - 500</div>', 
+        elem3: '<div><span  style= "color:#f4f466">▉</span>501 - 700</div>',
+        elem4: '<div><span  style= "color:#fdae61">▉</span>701 - 900</div>',
+        elem5: '<div><span  style= "color:#d7191c">▉</span>901 - 1041</div>',
         elem6: '<br />Factor de inclinación del terreno <br />A nivel: 1<br /> Ligeramente inclinada: 1.25<br /> Moderadamente inclinada: 1.5<br /> Fuertemente inclinada: 1.75<br /> Escarpada: 2<br />',
         elem7: '',
         elem8: "Alcaldía de Barranquilla",
     },
-    DIF_M_H: {
+    BRECHA_ESC: {
         title: "Brecha género años promedio educación",
         subtitle: "Relación años promedio educación de mujeres y hombres", 
-        elem1: '<div><span  style= "color:#d7191c">▉</span>0.00 - 0.90</div>',
-        elem2: '<div><span  style= "color:#1a9641">▉</span>1.00 - 1.30</div>', 
-        elem3: '<div><span  style= "color:#a6d96a">▉</span>1.31 - 1.84</div>',
-        elem4: '<div><span  style= "color:#f4f466">▉</span>1.85 - 2.00</div>',
-        elem5: '<div><span  style= "color:#fdae61">▉</span>2.01 - 15.33</div>',
+        elem1: '<div><span  style= "color:#d7191c">▉</span>0.00 - 0.99</div>',
+        elem2: '<div><span  style= "color:#1a9641">▉</span>1.00 - 1.05</div>', 
+        elem3: '<div><span  style= "color:#a6d96a">▉</span>1.06 - 1.14</div>',
+        elem4: '<div><span  style= "color:#f4f466">▉</span>1.15 - 1.44</div>',
+        elem5: '<div><span  style= "color:#fdae61">▉</span>1.45 - 2.25</div>',
         elem6: '',
         elem7: '',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
+        elem8: "INEGI Censo de Población y Vivienda 2020",
     },
-    P_EP: {
+    DP_EP: {
         title: "Proximidad espacio público",
         subtitle: "Distancia en m x Factor inclinación del terreno", 
-        elem1: '<div><span  style= "color:#1a9641">▉</span>0 - 100</div>',
-        elem2: '<div><span  style= "color:#a6d96a">▉</span>101 - 300</div>', 
-        elem3: '<div><span  style= "color:#f4f466">▉</span>301 - 500</div>',
-        elem4: '<div><span  style= "color:#fdae61">▉</span>501 - 800</div>',
-        elem5: '<div><span  style= "color:#d7191c">▉</span>801 - 1955</div>',
+        elem1: '<div><span  style= "color:#1a9641">▉</span>0 - 500</div>',
+        elem2: '<div><span  style= "color:#a6d96a">▉</span>501 - 1000</div>', 
+        elem3: '<div><span  style= "color:#f4f466">▉</span>1001 - 2000</div>',
+        elem4: '<div><span  style= "color:#fdae61">▉</span>2001 - 3000</div>',
+        elem5: '<div><span  style= "color:#d7191c">▉</span>3001 - 3237</div>',
         elem6: '<br />Factor de inclinación del terreno <br />A nivel: 1<br /> Ligeramente inclinada: 1.25<br /> Moderadamente inclinada: 1.5<br /> Fuertemente inclinada: 1.75<br /> Escarpada: 2<br />',
         elem7: '',
-        elem8: "Alcaldía de Barranquilla",
+        elem8: "Google Earth 2022",
     },
     M2_ESP_PU: {
         title: "M² per capita de espacio público",
@@ -497,67 +485,67 @@ var legends = {
         elem5: '<div><span  style= "color:#d7191c">▉</span>0 - 3</div>',
         elem6: '',
         elem7: '',
-        elem8: "Alcaldía de Barranquilla",
+        elem8: "Google Earth 2022",
     },
-    P_COMSER: {
+    DP_CENT: {
         title: "Proximidad zonas de interés económico (servicios y comercio)",
         subtitle: "Distancia en metros con factor de inclinación del terreno",
-        elem1: '<div><span  style= "color:#1a9641">▉</span>0 - 50</div>',
-        elem2: '<div><span  style= "color:#a6d96a">▉</span>51 - 200</div>', 
-        elem3: '<div><span  style= "color:#f4f466">▉</span>201 - 500</div>',
-        elem4: '<div><span  style= "color:#fdae61">▉</span>501 - 1000</div>',
-        elem5: '<div><span  style= "color:#d7191c">▉</span>1001 - 1534</div>',
+        elem1: '<div><span  style= "color:#1a9641">▉</span>0 - 500</div>',
+        elem2: '<div><span  style= "color:#a6d96a">▉</span>501 - 1000</div>', 
+        elem3: '<div><span  style= "color:#f4f466">▉</span>1001 - 2000</div>',
+        elem4: '<div><span  style= "color:#fdae61">▉</span>2001 - 3000</div>',
+        elem5: '<div><span  style= "color:#d7191c">▉</span>3001 - 7161</div>',
         elem6: '<br />Factor de inclinación del terreno <br />A nivel: 1<br /> Ligeramente inclinada: 1.25<br /> Moderadamente inclinada: 1.5<br /> Fuertemente inclinada: 1.75<br /> Escarpada: 2<br />',
         elem7: '',
-        elem8: "Alcaldía de Barranquilla",
+        elem8: "Directorio Estadístico Nacional de Unidades Económicas",
     },
     EMPLEO: {
         title: "Empleo",
         subtitle: "% Personas",
-        elem1: '<div><span  style= "color:#d7191c">▉</span>0 - 28</div>',
-        elem2: '<div><span  style= "color:#fdae61">▉</span>29 - 41</div>', 
-        elem3: '<div><span  style= "color:#f4f466">▉</span>42 - 49</div>',
-        elem4: '<div><span  style= "color:#a6d96a">▉</span>50 - 58</div>',
-        elem5: '<div><span  style= "color:#1a9641">▉</span>59 - 93</div>',
+        elem1: '<div><span  style= "color:#d7191c">▉</span>0 - 41</div>',
+        elem2: '<div><span  style= "color:#fdae61">▉</span>42 - 54</div>', 
+        elem3: '<div><span  style= "color:#f4f466">▉</span>55 - 65</div>',
+        elem4: '<div><span  style= "color:#a6d96a">▉</span>66 - 78</div>',
+        elem5: '<div><span  style= "color:#1a9641">▉</span>79 - 100</div>',
         elem6: '',
         elem7: '',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
+        elem8: "INEGI Censo de Población y Vivienda 2020",
     },
-    DESEM_M_H: {
+    BRECHA_DES: {
         title: "Brecha de género desempleo",
         subtitle: "Relación desempleo de mujeres y hombres",
-        elem1: '<div><span  style= "color:#d7191c">▉</span>0.00 - 0.89</div>',
-        elem2: '<div><span  style= "color:#1a9641">▉</span>0.90 - 1.00</div>', 
-        elem3: '<div><span  style= "color:#a6d96a">▉</span>1.01 - 1.62</div>',
-        elem4: '<div><span  style= "color:#f4f466">▉</span>1.63 - 3.14</div>',
-        elem5: '<div><span  style= "color:#fdae61">▉</span>3.15 - 15.11</div>',
+        elem1: '<div><span  style= "color:#1a9641">▉</span>0.00 - 0.89</div>',
+        elem2: '<div><span  style= "color:#a6d96a">▉</span>0.90 - 1.00</div>', 
+        elem3: '<div><span  style= "color:#f4f466">▉</span>1.01 - 1.62</div>',
+        elem4: '<div><span  style= "color:#fdae61">▉</span>1.63 - 3.14</div>',
+        elem5: '<div><span  style= "color:#d7191c">▉</span>3.15 - 6.44</div>',
         elem6: '',
         elem7: '',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
+        elem8: "INEGI Censo de Población y Vivienda 2020",
     },
     HOMICIDIOS: {
         title: "Tasa de homicidios",
         subtitle: "Homicidios x 100mil habitantes",
-        elem1: '<div><span  style= "color:#1a9641">▉</span>11.3</div>',
-        elem2: 'Tasa de la ciudad de Barranquilla', 
+        elem1: '<div><span  style= "color:#1a9641">▉</span>1.13</div>',
+        elem2: 'Tasa de Tapachula', 
         elem3: '',
         elem4: '',
         elem5: '',
         elem6: '',
         elem7: '',
-        elem8: "Instituto Nacional de Medicina Legal y Ciencias Forences",
+        elem8: "Secretaría de Seguridad Pública y Protección Ciudadana Municipal 2021",
     },
     HURTOS: {
         title: "Tasa de hurtos",
         subtitle: "Hurtos x 100mil habitantes",
-        elem1: '<div><span  style= "color:#1a9641">▉</span>25.1</div>',
-        elem2: 'Tasa de la ciudad de Barranquilla', 
+        elem1: '<div><span  style= "color:#1a9641">▉</span>5.65</div>',
+        elem2: 'Tasa de Tapachula', 
         elem3: '',
         elem4: '',
         elem5: '',
         elem6: '',
         elem7: '',
-        elem8: "Instituto Nacional de Medicina Legal y Ciencias Forences",
+        elem8: "Secretaría de Seguridad Pública y Protección Ciudadana Municipal 2021",
     },
     E_INFOR: {
         title: "Empleo informal estricto",
@@ -569,7 +557,7 @@ var legends = {
         elem5: '<div><span  style= "color:#d7191c">▉</span>47 - 73</div>',
         elem6: '',
         elem7: '',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
+        elem8: "INEGI Censo de Población y Vivienda 2020",
     },
     E_INFOR_E: {
         title: "Empleo informal estricto",
@@ -581,7 +569,7 @@ var legends = {
         elem5: '<div><span  style= "color:#d7191c">▉</span>47 - 73</div>',
         elem6: '',
         elem7: '',
-        elem8: "DANE Censo Nacional Población y Vivienda 2018",
+        elem8: "INEGI Censo de Población y Vivienda 2020",
     },
 }
 
@@ -612,38 +600,38 @@ indi = L.geoJson(Manzana, {
 var currentStyle = 'DEN_POB';
 
 function setProColor(d) {
-    if (currentStyle === 'P_MAT_ADE') {
-        return d > 85 ? '#1a9641' :
-            d > 65 ? '#a6d96a' :
-                d > 35 ? '#f4f466' :
-                    d > 15 ? '#fdae61' :
+    if (currentStyle === 'V_ADE') {
+        return d > 95 ? '#1a9641' :
+            d > 84 ? '#a6d96a' :
+                d > 67 ? '#f4f466' :
+                    d > 27 ? '#fdae61' :
                         '#d7191c';
-    }else if (currentStyle === 'A_ACU') {
-        return d > 97 ? '#1a9641' :
-            d > 88 ? '#a6d96a' :
-                d > 73 ? '#f4f466' :
-                    d > 45 ? '#fdae61' :
+    }else if (currentStyle === 'A_AGUA') {
+        return d > 95 ? '#1a9641' :
+            d > 83 ? '#a6d96a' :
+                d > 64 ? '#f4f466' :
+                    d > 26 ? '#fdae61' :
                         '#d7191c';
     } 
-    else if (currentStyle === 'A_ALC') {
-        return d > 86 ? '#1a9641' :
-            d > 85 ? '#a6d96a' :
-                d > 64 ? '#f4f466' :
-                    d > 29 ? '#fdae61' :
+    else if (currentStyle === 'A_SAN') {
+        return d > 97 ? '#1a9641' :
+            d > 89 ? '#a6d96a' :
+                d > 79 ? '#f4f466' :
+                    d > 19 ? '#fdae61' :
                         '#d7191c';
     }
-    else if (currentStyle === 'ESC_ANOS') {
-        return d > 15 ? '#1a9641' :
-            d > 13 ? '#a6d96a' :
-                d > 11 ? '#f4f466' :
-                    d > 8 ? '#fdae61' :
+    else if (currentStyle === 'PRO_ESC') {
+        return d > 13 ? '#1a9641' :
+            d > 10 ? '#a6d96a' :
+                d > 8 ? '#f4f466' :
+                    d > 3 ? '#fdae61' :
                         '#d7191c';
     }
-    else if (currentStyle === 'MIXTICIDAD') {
-        return d > 1.05 ? '#1a9641' :
-            d > 0.78 ? '#a6d96a' :
-                d > 0.53 ? '#f4f466' :
-                    d > 0.29 ? '#fdae61' :
+    else if (currentStyle === 'SHANNON') {
+        return d > 1.116 ? '#1a9641' :
+            d > 0.92 ? '#a6d96a' :
+                d > 0.71 ? '#f4f466' :
+                    d > 0.47 ? '#fdae61' :
                         '#d7191c';
     }
     else if (currentStyle === 'DESEM_JUVE') {
@@ -654,24 +642,21 @@ function setProColor(d) {
                                 '#1a9641';
     }
     else if (currentStyle === 'A_INTER') {
-        return d > 85 ? '#1a9641' :
-            d > 51 ? '#a6d96a' :
-                d > 32 ? '#f4f466' :
-                    d > 13 ? '#fdae61' :
+        return d > 79 ? '#1a9641' :
+            d > 58 ? '#a6d96a' :
+                d > 38 ? '#f4f466' :
+                    d > 14 ? '#fdae61' :
                         '#d7191c';
     }
     else if (currentStyle === 'T_DESEMP') {
-        return d > 50 ? '#d7191c' :
-                        d > 30 ? '#fdae61' :
-                            d > 20 ? '#f4f466' :
-                                d > 10 ? '#a6d96a':
+        return d > 38 ? '#d7191c' :
+                        d > 18 ? '#fdae61' :
+                            d > 10 ? '#f4f466' :
+                                d > 3 ? '#a6d96a':
                                 '#1a9641';
     }
     else if (currentStyle === 'PM10') {
-        return d > 45 ? '#d7191c' :
-            d > 43 ? '#fdae61' :
-                d > 41 ? '#f4f466' :
-                    d > 39 ? '#a6d96a' :
+        return d > 32.2 ? '#f4f466' :
                     '#1a9641';
     }
     else if (currentStyle === 'DES_RANGO') {
@@ -698,31 +683,24 @@ function setProColor(d) {
                     '#1a9641';
     }
     else if (currentStyle === 'MIX_ETNIA') {
-        return d > 0.24 ? '#1a9641' :
-            d > 0.14 ? '#a6d96a' :
-                d > 0.08 ? '#f4f466' :
-                    d > 0.02 ? '#fdae61' :
+        return d > 0.44 ? '#1a9641' :
+            d > 0.28 ? '#a6d96a' :
+                d > 0.18 ? '#f4f466' :
+                    d > 0.06 ? '#fdae61' :
                     '#d7191c';
     }
     else if (currentStyle === 'MIX_EDU') {
-        return d > 1.55 ? '#1a9641' :
-            d > 1.33 ? '#a6d96a' :
-                d > 1.07 ? '#f4f466' :
-                    d > 0.46 ? '#fdae61' :
-                    '#d7191c';
-    }
-    else if (currentStyle === 'SHANON_ES') {
-        return d > 0.77 ? '#1a9641' :
-            d > 0.54 ? '#a6d96a' :
-                d > 0.33 ? '#f4f466' :
-                    d > 0.12 ? '#fdae61' :
+        return d > 0.94 ? '#1a9641' :
+            d > 0.78 ? '#a6d96a' :
+                d > 0.53 ? '#f4f466' :
+                    d > 0.25 ? '#fdae61' :
                     '#d7191c';
     }
     else if (currentStyle === 'MIX_EDAD') {
-        return d > 1.53 ? '#1a9641' :
-            d > 1.44 ? '#a6d96a' :
-                d > 1.33 ? '#f4f466' :
-                    d > 1.12 ? '#fdae61' :
+        return d > 1.38 ? '#1a9641' :
+            d > 1.10 ? '#a6d96a' :
+                d > 0.74 ? '#f4f466' :
+                    d > 0.36 ? '#fdae61' :
                     '#d7191c';
     }
     else if (currentStyle === 'DEN_POB') {
@@ -732,7 +710,7 @@ function setProColor(d) {
                     d > 50 ? '#1a9641' :
                     '#a6d96a';
     }
-    else if (currentStyle === 'P_SALUD') {
+    else if (currentStyle === 'D_PCENTROA') {
         return d > 3000 ? '#d7191c' :
             d > 1500 ? '#fdae61' :
                 d > 1000 ? '#f4f466' :
@@ -746,11 +724,11 @@ function setProColor(d) {
                     d > 500 ? '#a6d96a' :
                     '#1a9641';
     }
-    else if (currentStyle === 'P_SALUD1') {
-        return d > 8000 ? '#d7191c' :
-            d > 4000 ? '#fdae61' :
-                d > 2000 ? '#f4f466' :
-                    d > 1000 ? '#a6d96a' :
+    else if (currentStyle === 'D_PHOSP') {
+        return d > 3000 ? '#d7191c' :
+            d > 1500 ? '#fdae61' :
+                d > 1000 ? '#f4f466' :
+                    d > 500 ? '#a6d96a' :
                     '#1a9641';
     }
     else if (currentStyle === 'VIV_ADE') {
@@ -760,25 +738,26 @@ function setProColor(d) {
                     d > 41 ? '#fdae61' :
                     '#d7191c';
     }
-    else if (currentStyle === 'ES_VIT_SUF') {
-        return d > 97 ? '#1a9641' :
-            d > 90 ? '#a6d96a' :
-                d > 82 ? '#f4f466' :
-                    d > 71 ? '#fdae61' :
+    else if (currentStyle === 'ESP_VIT') {
+        return d > 1 ? '#1a9641' :
+                    '#d7191c';
+    }
+    else if (currentStyle === 'HOMICIDIOS') {
+        return d > 1 ? '#1a9641' :
                     '#d7191c';
     }
     else if (currentStyle === 'A_ELEC') {
-        return d > 98 ? '#1a9641' :
-            d > 94 ? '#a6d96a' :
-                d > 85 ? '#f4f466' :
-                    d > 60 ? '#fdae61' :
+        return d > 97 ? '#1a9641' :
+            d > 90 ? '#a6d96a' :
+                d > 72 ? '#f4f466' :
+                    d > 63 ? '#fdae61' :
                     '#d7191c';
     }
-    else if (currentStyle === 'D_ECONO') {
-        return d > 16 ? '#d7191c' :
-            d > 5.33 ? '#fdae61' :
-                d > 3.24 ? '#f4f466' :
-                    d > 2.51 ? '#a6d96a' :
+    else if (currentStyle === 'DEP_ECONO') {
+        return d > 9 ? '#d7191c' :
+            d > 3.67 ? '#fdae61' :
+                d > 2.49 ? '#f4f466' :
+                    d > 1.90 ? '#a6d96a' :
                     '#1a9641';
     }
     else if (currentStyle === 'CON_SOL') {
@@ -789,45 +768,39 @@ function setProColor(d) {
                     '#1a9641';
     }
     else if (currentStyle === 'E_VIDA') {
-        return d > 75 ? '#1a9641' :
-            d > 73 ? '#a6d96a' :
-                d > 70 ? '#f4f466' :
-                    d > 65 ? '#fdae61' :
+        return d > 73 ? '#1a9641' :
                     '#d7191c';
     }
     else if (currentStyle === 'B_E_VIDA') {
-        return d > 1.17 ? '#fdae61' :
-            d > 1.08 ? '#f4f466' :
-                d > 1.03 ? '#a6d96a':
-                    d > 0.98 ? '#1a9641' :
+        return d > 1 ? '#a6d96a' :
                     '#d7191c'; 
     }
-    else if (currentStyle === 'P_BIB') {
+    else if (currentStyle === 'DP_CULT') {
         return d > 5000 ? '#d7191c' :
             d > 3000 ? '#fdae61' :
                 d > 1000 ? '#f4f466' :
                     d > 500 ? '#a6d96a' :
                     '#1a9641';
     }
-    else if (currentStyle === 'P_EDU') {
-        return d > 1500 ? '#d7191c' :
-            d > 1000 ? '#fdae61' :
+    else if (currentStyle === 'DP_EDU') {
+        return d > 900 ? '#d7191c' :
+            d > 700 ? '#fdae61' :
                 d > 500 ? '#f4f466' :
-                    d > 200 ? '#a6d96a' :
+                    d > 300 ? '#a6d96a' :
                     '#1a9641';
     }
-    else if (currentStyle === 'DIF_M_H') {
-        return d > 2 ? '#fdae61' :
-            d > 1.84 ? '#f4f466' :
-                d > 1.30 ? '#a6d96a' :
-                    d > 0.9? '#1a9641' :
+    else if (currentStyle === 'BRECHA_ESC') {
+        return d > 1.44 ? '#fdae61' :
+            d > 1.14 ? '#f4f466' :
+                d > 1.05 ? '#a6d96a' :
+                    d > 0.99? '#1a9641' :
                     '#d7191c';
     }
-    else if (currentStyle === 'P_EP') {
-        return d > 800 ? '#d7191c' :
-            d > 500 ? '#fdae61' :
-                d > 300 ? '#f4f466' :
-                    d > 100 ? '#a6d96a' :
+    else if (currentStyle === 'DP_EP') {
+        return d > 3000 ? '#d7191c' :
+            d > 2000 ? '#fdae61' :
+                d > 1000 ? '#f4f466' :
+                    d > 500 ? '#a6d96a' :
                     '#1a9641';
     }
     else if (currentStyle === 'M2_ESP_PU') {
@@ -837,26 +810,26 @@ function setProColor(d) {
                     d > 3 ? '#fdae61':
                     '#d7191c';
     }
-    else if (currentStyle === 'P_COMSER') {
-        return d > 1000 ? '#d7191c' :
-            d > 500 ? '#fdae61' :
-                d > 200 ? '#f4f466' :
-                    d > 50 ? '#a6d96a' :
+    else if (currentStyle === 'DP_CENT') {
+        return d > 3000 ? '#d7191c' :
+            d > 2000 ? '#fdae61' :
+                d > 1000 ? '#f4f466' :
+                    d > 500 ? '#a6d96a' :
                     '#1a9641';
     }
     else if (currentStyle === 'EMPLEO') {
-        return d > 58 ? '#1a9641' :
-            d > 49 ? '#a6d96a' :
-                d > 41 ? '#f4f466' :
-                    d > 28 ? '#fdae61' :
+        return d > 78 ? '#1a9641' :
+            d > 65 ? '#a6d96a' :
+                d > 54 ? '#f4f466' :
+                    d > 41 ? '#fdae61' :
                     '#d7191c';
     }
-    else if (currentStyle === 'DESEM_M_H') {
-        return d > 3.14 ? '#fdae61' :
-            d > 1.62 ? '#f4f466' :
-                d > 1 ? '#a6d96a' :
-                    d > 0.89 ? '#1a9641' :
-                    '#d7191c';
+    else if (currentStyle === 'BRECHA_DES') {
+        return d > 3.14 ? '#d7191c' :
+            d > 1.62 ? '#fdae61' :
+                d > 1 ? '#f4f466' : 
+                    d > 0.89 ? '#a6d96a' :
+                    '#1a9641';
     }
     else if (currentStyle === 'E_INFOR') {
         return d > 46 ? '#d7191c' :
